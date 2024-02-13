@@ -1,0 +1,13 @@
+#+title: Linear.el
+#+author: JD Gonzales
+
+* Linear.el
+** Overview
+Linear.el is still a major WIP. This is a magit-style interface for interacting with [[https://linear.app/][Linear App]].
+** Installation
+TODO
+
+** Setup
+- Create a LinearAPI key and set it to an env variable (for now)
+- Ensure you can access it with =(getenv "WHAT_YOU_NAMED_KEY")=
+- Run =linear-status= to kick off the initial screen which will list all /active/ projects within your workspace
